@@ -74,3 +74,12 @@ In order to do so , we need two dependencies.
 6. Run ```xmonad --recompile``` to check for any errors , if not that's great, if found any errors search for xmonad haskell wiki, you most probably will find solution for it.
 
 7. Restart xmonad with ```mod + q``` and check the screen , you will be able to see the wallpaper you set each time you login into a xmonad session, also you can set transparency on terminal and other compton effects.
+
+## Adding rofi as an application launcher 
+1. Install ```rofi```   
+```sudo apt install rofi```
+2. Visit [ArchLinux Wiki for Xmobar](https://wiki.archlinux.org/index.php/Xmobar#Installation) for more knowledge on configuring xmobar.
+3. Add the following line for ```mod+p``` binding in xmonad.hs file.  
+( Note: icon theme can be replaced with installed icon themes present on system.)
+
+```((modm, xK_p),spawn "rofi -combi-modi window,drun,ssh -theme purple -font 'hack 10' -show combi -icon-theme 'Flat-Remix-Blue-Dark' -show-icons")```
