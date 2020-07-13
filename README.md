@@ -85,3 +85,5 @@ In order to do so , we need two dependencies.
 ( Note: icon theme can be replaced with installed icon themes present on system.)
 
 ```((modm, xK_p),spawn "rofi -combi-modi window,drun,ssh -theme purple -font 'hack 10' -show combi -icon-theme 'Flat-Remix-Blue-Dark' -show-icons")```
+
+![Rofi screenshot](screenshots/rofiScreenshot.png?raw=true)
