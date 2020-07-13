@@ -27,8 +27,8 @@ Here ```mod``` - is generally **Alt key** for xmonad.
 |```mod+shift+k```    |swap the focused window with previous window|  
 
 For more info on key shortcuts as such use following command in terminal :   
-```man xmonad```
-
+```man xmonad```  
+![Xmonad keybindings](screenshots/Xmbindings.png?raw=true)
 ## Custom configuration of xmonad  
 
 Head on to [Distrotube](https://www.youtube.com/watch?v=3noK4GTmyMw&t=1014s) for hands on implementation of following features.
@@ -74,6 +74,8 @@ In order to do so , we need two dependencies.
 6. Run ```xmonad --recompile``` to check for any errors , if not that's great, if found any errors search for xmonad haskell wiki, you most probably will find solution for it.
 
 7. Restart xmonad with ```mod + q``` and check the screen , you will be able to see the wallpaper you set each time you login into a xmonad session, also you can set transparency on terminal and other compton effects.
+
+![Desktop screenshot](screenshots/screenshot-desktop.png?raw=true)
 
 ## Adding rofi as an application launcher 
 1. Install ```rofi```   
